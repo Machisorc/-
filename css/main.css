@@ -1,0 +1,47 @@
+body {margin: 0; padding: 40px;}
+
+.map {
+	position: relative;
+	text-align: center;
+}
+img {
+	width: 100%;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.part, .part1 {
+	opacity: .1;
+}
+
+.part1:hover,
+.part:hover {
+	transition: opacity .2s ease;
+	opacity: .5;
+	cursor: pointer;
+}
+
+
+.description {
+	display: none;
+	position: absolute;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 300px;
+	height: 400px;
+	box-shadow: 0 0 32px 10px #ccc;
+	right: 50px;
+	top: 5%;
+	font-family: sans-serif;
+}
+
+.description img {
+	width: 250px;
+	margin-bottom: 20px;
+}
